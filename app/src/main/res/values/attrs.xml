@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--水波纹进度条-->
+    <declare-styleable name="WaveProgressBar">
+        <!--水波纹向右移动的时候执行的时间-->
+        <attr name="duration" format="integer" />
+        <attr name="waveMax" format="integer" />
+        <attr name="waveProgress" format="integer" />
+        <!--深色水波纹高度-->
+        <attr name="darkWaveHeight" format="dimension" />
+        <!--深色水波纹长度-->
+        <attr name="darkWaveWidth" format="dimension" />
+        <!--浅色水波纹高度-->
+        <attr name="lightWaveHeight" format="dimension" />
+        <!--浅色水波纹长度-->
+        <attr name="lightWaveWidth" format="dimension" />
+        <!--深色水波颜色 -->
+        <attr name="darkWaveColor" format="color" />
+        <!--浅色水波颜色 -->
+        <attr name="lightWaveColor" format="color" />
+    </declare-styleable>
+</resources>
